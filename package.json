@@ -1,0 +1,19 @@
+{
+  "name": "tello-video-nodejs-websockets",
+  "version": "1.0.0",
+  "description": "View Tello's video stream with Node.js, ffmpeg, and websockets",
+  "main": "index.js",
+  "scripts": {
+    "github": "git add . && git commit -m 'commit' && git push origin master",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Dennis Baldwin",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^7.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
